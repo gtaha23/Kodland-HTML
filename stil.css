@@ -34,3 +34,21 @@ h5 {
     font-size: 22px; /* Başlık yazı tipi boyutu */
     font-family: "Arial"; /* Başlıkta kullanılan yazı tipi ailesi */
 }
+
+h6 {
+    color: #FFFFFF; /* Başlık rengi */
+    font-size: 22px; /* Başlık yazı tipi boyutu */
+    font-family: "Arial"; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+h7 {
+    color: #FFFFFF; /* Başlık rengi */
+    font-size: 22px; /* Başlık yazı tipi boyutu */
+    font-family: "Arial"; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+h8 {
+    color: #FFFFFF; /* Başlık rengi */
+    font-size: 22px; /* Başlık yazı tipi boyutu */
+    font-family: "Arial"; /* Başlıkta kullanılan yazı tipi ailesi */
+}
