@@ -70,3 +70,9 @@ h11 {
     font-size: 22px;  /* Başlık yazı tipi boyutu */
     font-family: 'Arial'; /* Başlıkta kullanılan yazı tipi ailesi */
 }
+
+h12 {
+    color: #FFFFFF; /* Başlık rengi */
+    font-size: 22px; /* Başlık yazı tipi boyutu */
+    font-family: 'Arial'; /* Başlıkta kullanılan yazı tipi ailesi */
+}
