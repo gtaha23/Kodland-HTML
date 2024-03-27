@@ -11,6 +11,24 @@ h1 {
     font-family: "Arial"; /* Başlıkta kullanılan yazı tipi ailesi */
 }
 
+@keyframes color-change {
+    0% {
+      color: rgb(0, 176, 6);
+    }
+  
+    50% {
+      color: rgb(97, 0, 0);
+    }
+  
+    100% {
+      color: rgb(71, 71, 71);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
 h2 {
     color: #FFFFFF; /* Başlık rengi */
     font-size: 22px; /* Başlık yazı tipi boyutu */
