@@ -29,6 +29,8 @@ h1 {
     animation: color-change 3s infinite;
 }
 
+h1:hover {animation: color-change 3s infinite; }
+
 h2 {
     color: #FFFFFF; /* Başlık rengi */
     font-size: 22px; /* Başlık yazı tipi boyutu */
