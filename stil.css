@@ -25,6 +25,8 @@ h1 {
     }
 }
 
+h1:hover { animation: color-change 3s infinite; }
+
 h1 {
     animation: color-change 3s infinite;
 }
