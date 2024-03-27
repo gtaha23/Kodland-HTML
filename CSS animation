@@ -1,0 +1,21 @@
+@keyframes color-change {
+    0% {
+      color: rgb(0, 176, 6);
+    }
+  
+    50% {
+      color: rgb(97, 0, 0);
+    }
+  
+    100% {
+      color: rgb(71, 71, 71);
+    }
+}
+
+h1:hover { animation: color-change 3s infinite; }
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+<!---You can make a animation on a text using this code--->
