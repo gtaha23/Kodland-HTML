@@ -68,6 +68,11 @@ button:active {
 
 }
 
+p::selection {
+    color:rgb(5, 128, 39);
+    background-color:antiquewhite
+}
+
 h2 {
     color: #FFFFFF; /* Başlık rengi */
     font-size: 22px; /* Başlık yazı tipi boyutu */
