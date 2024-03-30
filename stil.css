@@ -4,6 +4,12 @@ body {
     font-size: 20px; /* <p></p> etiketindeki ana yazının boyutu */
     background-color: #5988FF; /* Web sayfasının arka plan rengi */
     color: rgb(229, 128, 145); /* Metin rengi */
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px
 }
 
 h1 {
@@ -13,6 +19,32 @@ h1 {
     border-top-style: dotted;
     border-bottom-style: dotted;
     border-radius: 5px;
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(65, 65, 65);
+}
+
+.navbar li{
+    float: left;
+
 }
 
 @keyframes color-change {
@@ -71,6 +103,10 @@ button:active {
 p::selection {
     color:rgb(5, 128, 39);
     background-color:antiquewhite
+}
+
+.dropdown button {
+    cursor: pointer
 }
 
 h2 {
