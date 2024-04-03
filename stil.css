@@ -47,6 +47,11 @@ h1 {
 
 }
 
+form {
+    width: 30%;
+    float: left;
+}
+
 @keyframes color-change {
     0% {
       color: rgb(0, 176, 6);
