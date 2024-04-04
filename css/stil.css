@@ -52,6 +52,10 @@ form {
     float: left;
 }
 
+.fa-solid.fa-circle-user.fa-2x {
+    color:#D6FF6B
+}
+
 @keyframes color-change {
     0% {
       color: rgb(0, 176, 6);
