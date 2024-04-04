@@ -56,8 +56,16 @@ form {
     color:#D6FF6B
 }
 
+.fa-solid.fa-circle-user.fa-2x:hover {
+    color:#bff43b
+}
+
 .fa-solid.fa-code.fa-2x {
     color:aquamarine
+}
+
+.fa-solid.fa-code.fa-2x:hover {
+    color:rgb(70, 236, 181)
 }
 
 .icons {
