@@ -61,12 +61,12 @@ form {
 }
 
 .icons {
-    text-align: center;
+    text-align: left;
 }
 
 .icons a{
     text-decoration: none;
-    padding: 20px;
+    padding: 3px;
 }
 
 @keyframes color-change {
