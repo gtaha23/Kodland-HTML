@@ -20,6 +20,7 @@ h1 {
     border-bottom-style: dotted;
     border-radius: 5px;
     text-align: center;
+    flex-wrap: nowrap;
 }
 
 .navbar ul{
@@ -91,15 +92,25 @@ form {
     }
 }
 
-h1:hover { animation: color-change 3s infinite; }
+h1:hover { 
+
+    animation: color-change 3s infinite;
+    
+}
 
 h1 {
-    animation: color-change 3s infinite;
+
+    animation: mySlide 3s;;
+
 }
 
 @keyframes mySlide {
-    from{margin-left: 100%;}
+    from{margin-left: 70%;}
     to{margin-left: 0%;}
+}
+
+@keyframes fade {
+    50%{opacity: 0} 
 }
 
 a:link {
@@ -138,6 +149,8 @@ p::selection {
 .dropdown button {
     cursor: pointer
 }
+
+
 
 h2 {
     color: #FFFFFF; /* Başlık rengi */
